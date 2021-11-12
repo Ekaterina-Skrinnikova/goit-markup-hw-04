@@ -21,15 +21,15 @@
 
   <body>
     <header>
-      <div class="conteiner flex-conteiner header-border">
-        <nav class="flex-nav">
+      <div class="conteiner header-conteiner header-border">
+        <nav class="nav-conteiner">
           <a class="logo logo-header" href=""
             >Web<span class="logo-part-header">Studio</span></a
           >
           <ul class="site-nav list">
-            <li class="item"><a href="">Студия</a></li>
-            <li class="item"><a href="./portfolio.html">Портфолио</a></li>
-            <li class="item"><a href="">Контакты</a></li>
+            <li class="site-nav-item"><a href="" class="site-nav-link">Студия</a></li>
+            <li class="site-nav-item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
+            <li class="site-nav-item"><a href="" class="site-nav-link">Контакты</a></li>
           </ul>
         </nav>
 
@@ -38,13 +38,13 @@
             <svg class="icon-mail">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
-            <a href="maito:info@devstudio.com" class="auth-nav-link">info@devstudio.com</a>
+            <a class="auth-nav-link" href="maito:info@devstudio.com" >info@devstudio.com</a>
           </li>
           <li class="auth-nav-item">
             <svg class="icon-tel">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
-            <a class="tel" href="tel:+380961111111" class="auth-nav-link">+38 096 111 11 11</a>
+            <a class="auth-nav-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -61,250 +61,257 @@
       </section>
 
       <!--Особенности-->
-      <section class="conteiner">
-        <h2 class="hidden-title">Особенности</h2>
-        <ul class="singularity-flex list">
-          <li class="singularity-item">
-            <div class="singularity-background-icon">
-              <svg class="singularity-icon">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
-            </div>
-            <h3 class="singularity-titel">Внимание к деталям</h3>
-            <p class="singularity-text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
+      <section>
+        <div class="conteiner">
+          <h2 class="hidden-title">Особенности</h2>
+          <ul class="singularity-flex list">
+            <li class="singularity-item">
+              <div class="singularity-background-icon">
+                <svg class="singularity-icon">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="singularity-titel">Внимание к деталям</h3>
+              <p class="singularity-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
 
-          <li class="singularity-item">
-            <div class="singularity-background-icon">
-              <svg class="singularity-icon">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
-            </div>
-            <h3 class="singularity-titel">Пунктуальность</h3>
-            <p class="singularity-text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
+            <li class="singularity-item">
+              <div class="singularity-background-icon">
+                <svg class="singularity-icon">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="singularity-titel">Пунктуальность</h3>
+              <p class="singularity-text">
+                Задача организации, в особенности же рамки и место обучения кадров
+                влечет за собой.
+              </p>
+            </li>
 
-          <li class="singularity-item">
-            <div class="singularity-background-icon">
-              <svg class="singularity-icon">
-                <use href="./images/icons.svg#icon-diagram"></use>
-              </svg>
-            </div>
-            <h3 class="singularity-titel">Планирование</h3>
-            <p class="singularity-text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
+            <li class="singularity-item">
+              <div class="singularity-background-icon">
+                <svg class="singularity-icon">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="singularity-titel">Планирование</h3>
+              <p class="singularity-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
 
-          <li class="singularity-item">
-            <div class="singularity-background-icon">
-              <svg class="singularity-icon">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-            <h3 class="singularity-titel">Современные технологии</h3>
-            <p class="singularity-text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+            <li class="singularity-item">
+              <div class="singularity-background-icon">
+                <svg class="singularity-icon">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="singularity-titel">Современные технологии</h3>
+              <p class="singularity-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="conteiner">
-        <h2 class="title-section">Чем мы занимаемся</h2>
-        <ul class="work list">
-          <li class="work-item">
-            <img
-              src="./images/img1.jpg"
-              alt="человек набирает программный код"
-              width="370"
-            />
-          </li>
-          <li class="work-item">
-            <img
-              src="./images/img2.jpg"
-              alt="человек выбирает разметку для мобиньного приложения"
-              width="370"
-            />
-          </li>
-          <li class="work-item">
-            <img
-              src="./images/img3.jpg"
-              alt="человек смотрит на цветовую гамму"
-              width="370"
-            />
-          </li>
-        </ul>
+      <section>
+        <div class="conteiner">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="work list">
+            <li class="work-item">
+              <img
+                src="./images/img1.jpg"
+                alt="человек набирает программный код"
+                width="370"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                src="./images/img2.jpg"
+                alt="человек выбирает разметку для мобиньного приложения"
+                width="370"
+               />
+            </li>
+            <li class="work-item">
+              <img
+                src="./images/img3.jpg"
+                alt="человек смотрит на цветовую гамму"
+                 width="370"
+               />
+            </li>
+          </ul>
+        </div> 
       </section>
 
       <!--Наша команда-->
       <div class="team">
-        <section class="conteiner">
-          <h2 class="title-section employee-title-section">Наша команда</h2>
-          <ul class="team-flex list">
-            <li class="employee-item">
-              <img src="./images/photo1.jpg" alt="фото1" width="270" />
-              <h3 class="employee-title">Игорь Демьяненко</h3>
-              <p class="employee-text">Product Designer</p>
+        <section>
+          <div class="conteiner">
+            <h2 class="section-title employee-title-section">Наша команда</h2>
+            <ul class="team-flex list">
+              <li class="employee-item">
+                <img src="./images/photo1.jpg" alt="фото1" width="270" />
+                <h3 class="employee-title">Игорь Демьяненко</h3>
+                <p class="employee-text">Product Designer</p>
 
-              <ul class="employee-link list">
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
+                <ul class="employee-link list">
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="employee-item">
-              <img src="./images/photo2.jpg" alt="фото2" width="270" />
-              <h3 class="employee-title">Ольга Репина</h3>
-              <p class="employee-text">Frontend Developer</p>
+              <li class="employee-item">
+                <img src="./images/photo2.jpg" alt="фото2" width="270" />
+                <h3 class="employee-title">Ольга Репина</h3>
+                <p class="employee-text">Frontend Developer</p>
 
-              <ul class="employee-link list">
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
+                <ul class="employee-link list">
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="employee-item">
-              <img src="./images/photo3.jpg" alt="фото3" width="270" />
-              <h3 class="employee-title">Николай Тарасов</h3>
-              <p class="employee-text">Marketing</p>
+              <li class="employee-item">
+                <img src="./images/photo3.jpg" alt="фото3" width="270" />
+                <h3 class="employee-title">Николай Тарасов</h3>
+                <p class="employee-text">Marketing</p>
 
-              <ul class="employee-link list">
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
+                <ul class="employee-link list">
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-            <li class="employee-item">
-              <img src="./images/photo4.jpg" alt="фото4" width="270" />
-              <h3 class="employee-title">Михаил Ермаков</h3>
-              <p class="employee-text">UI Designer</p>
+              <li class="employee-item">
+                <img src="./images/photo4.jpg" alt="фото4" width="270" />
+                <h3 class="employee-title">Михаил Ермаков</h3>
+                <p class="employee-text">UI Designer</p>
 
-              <ul class="employee-link list">
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="employee-background-icon">
-                  <a href="">
-                    <svg class="employee-icon">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+                 <ul class="employee-link list">
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="employee-hover">
+                    <a class="employee-background-icon" href="">
+                      <svg class="employee-icon">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
         </section>
       </div>
 
       <!-- Постоянные клиенты -->
       <section class="conteiner">
-        <h2 class="title-section clients-title-section">Постоянные клиенты</h2>
+        <h2 class="section-title clients-title-section">Постоянные клиенты</h2>
         <ul class="clients list">
           <li class="client-item">
             <a href="" class="clients-background-icon">
